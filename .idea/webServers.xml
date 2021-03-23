@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2a212e25-7db6-438a-a5ed-bb7985f8d400" name="iito_kspu" url="http://hist-inf.kspu.ru">
+        <fileTransfer rootFolder="/home/darius" accessType="SFTP" host="iito.kspu.ru" port="667" sshConfigId="b0aff29e-6447-49d7-a328-a8bae73d375e" sshConfig="darius@iito.kspu.ru:667 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
