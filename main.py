@@ -21,8 +21,9 @@ if __name__ == '__main__':
         x.append(data[1])
         y.append(data[2])
 
-    print(x)
-    print(y)
-
+#    print(x)
+#    print(y)
+    print("Точки просчитаны. Делаю анимацию")
     anim = Animation(x=x, y=y)
     anim.save()
+    print("Файл создан!")
